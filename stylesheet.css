@@ -1,0 +1,52 @@
+body{
+	background-color:lightblue;
+}
+.info {
+	font-size:14px;
+	margin-top:10px;
+	height:300px;
+	width:200px;
+	float:right;
+}
+h4{
+	text-align:center;
+}
+.interests{
+	text-align:center;
+	background-color: lightgreen;
+	border:3px solid;
+	border-radius:10px;
+}
+img{
+	max-height:300px;
+	float:left;
+}
+section{
+	background-color:lightblue;
+	border-radius:10px;
+}
+.spot-a,.spot-b,.spot-f,.spot-e,.spot-c,.spot-d{
+	border-style:solid;
+	padding-top:5px;
+}
+.spot-a{
+	border-width: 3px 3px 3px 1.5px;
+}
+.spot-b{
+	border-width: 3px 3px 3px 1.5px;
+}
+.spot-c{
+	border-width: 3px 1.5px 3px 1.5px;
+}
+.spot-d{
+	border-width: 1.5px 3px 1.5px 1.5px;
+}
+.spot-e{
+	border-width: 1.5px 3px 1.5px 1.5px;
+}
+.spot-f{
+	border-width: 1.5px 1.5px 1.5px 1.5px;
+}
+.spot-a:hover,.spot-b:hover,.spot-f:hover,.spot-e:hover,.spot-c:hover,.spot-d:hover{
+background-color:white;
+}
