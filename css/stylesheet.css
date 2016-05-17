@@ -8,8 +8,15 @@ body{
 	width:200px;
 	float:right;
 }
+a{
+	text-decoration:none;
+	color:black;
+}
 h4{
 	text-align:center;
+}
+button{
+	margin-left:45px;
 }
 .interests{
 	text-align:center;
@@ -49,4 +56,11 @@ section{
 }
 .spot-a:hover,.spot-b:hover,.spot-f:hover,.spot-e:hover,.spot-c:hover,.spot-d:hover{
 background-color:white;
+}
+.nav-rtl{
+	padding-left:40px;
+	padding-right: 0px
+}
+.nav-rtl li{
+	float:right;
 }
